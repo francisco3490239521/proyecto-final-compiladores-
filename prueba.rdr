@@ -1,0 +1,17 @@
+programa prueba {
+    entero x = 5;
+    entero y = 10;
+    entero z = x + y;
+
+    imprimir("Resultado de la suma:");
+    imprimir(z);
+
+    // Error léxico de prueba
+    // entero w = @12;   // <- símbolo inválido
+
+    // Error sintáctico de prueba
+    // entero a = 7      // <- falta punto y coma
+
+    // Error semántico de prueba
+    // entero b = x + "texto";  // <- tipos incompatibles
+}
